@@ -2,6 +2,7 @@ $(function() {
   var usuario = "",
       pass = "";
 
+window.history.forward();
 //Evento del boton enviar
 $("#btnEnviar").click(function()
 {
@@ -24,19 +25,18 @@ $("#btnEnviar").click(function()
 $("#error").hide();
 $("#inc-header").html('<div class="cent">'
                         +'<div class="logo">Programming Learning</div>'
-                        +'<div id="loguser"></div>'
                         +'<nav>'
-                        +'<a href="./inicio.html"Inicio>Inicio</a>'
-                        +'<a href="#Productos">Productos</a>'
-                        +'<a href="#Ejemplos">Ejemplos</a>'
-                        +'<a href="./acercade">Acerca de</a>'
+                        +'<a href="./inicio.html">Inicio</a>'
+                        +'<a href="./productos.html">Productos</a>'
+                        +'<a href="./ejemploprogramacion.html">Ejemplos</a>'
+                        +'<a href="./acercade.html">Acerca de</a>'
                         +'<a href="http://localhost/programminglearning/index.html">Cerrar sesión</a>'
                         +'</nav> </div>'
                       );
-$("#inc-header2").html('<div class="cent">'
+
+$("#inc-header2").html('<div">'
                         +'<div class="logo">Programming Learning</div></div>'
   );
-  console.log(usuario +"  "+ pass);
 $(window).scroll(function(){
   if ( $(this).scrollTop() > 0)
   {
@@ -48,7 +48,7 @@ $(window).scroll(function(){
 
 //--------
 //Pie de pagina
-$("#pie").html('<div class="cent">Desarrollado por: Inmysion</div>');
+$(".pie").html('Desarrollado por: Inmysion');
 //--------------
 
   //Funcion para obtener el id de un elemento del DOM
