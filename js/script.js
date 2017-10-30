@@ -30,7 +30,7 @@ $("#inc-header").html('<div class="cent">'
                         +'<a href="./productos.html">Productos</a>'
                         +'<a href="./ejemploprogramacion.html">Ejemplos</a>'
                         +'<a href="./acercade.html">Acerca de</a>'
-                        +'<a href="http://localhost/programminglearning/index.html">Cerrar sesión</a>'
+                        +'<a href="https://szantiago.github.io/programminglearning/index.html">Cerrar sesión</a>'
                         +'</nav> </div>'
                       );
 
