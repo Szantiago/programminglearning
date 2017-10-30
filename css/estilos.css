@@ -157,6 +157,10 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+#ejem {
+  text-align: left;
+}
+
 /*-----*/
 
 .enconstruccion {
@@ -172,8 +176,8 @@ tr:nth-child(even) {
 }
 
 #pimg {
-  height: 10px;
-  width: 10px;
-  margin-left: 320px;
+  height: 210px;
+  width: 270px;
+  margin-left: 80px;
   overflow: hidden;
 }
