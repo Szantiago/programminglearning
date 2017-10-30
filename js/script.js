@@ -8,7 +8,7 @@ $("#btnEnviar").click(function()
 {
   usuario = document.getElementById("usuario").value;
   pass = document.getElementById("pass").value;
-  if(usuario =="user" && pass == "pass")
+  if(usuario =="usuariodeprueba" && pass == "contrasena")
   {
     window.location.href ="./contenido/inicio.html";
     usuario = document.getElementById("usuario").value;

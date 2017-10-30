@@ -116,7 +116,7 @@ form label {
   margin: 10px 0px 0px 100px;
 }
 /*Estilo de contenido*/
-.contenido p {
+.contenido p, h1, h2{
   margin-bottom: 1em;
   width: 90%;
   max-width: 1100px;
